@@ -1,0 +1,50 @@
+You are generating pathology cross-magnification VQA questions of
+{TYPE_BLOCK}
+
+{TYPE_CONSTRAINTS}
+
+CRITICAL IMAGE-DEPENDENCE CONSTRAINTS (STRICT):
+- The correct answer to EACH question must require inspecting ALL provided images.
+- No question may be answerable using diagnosis-pattern recall alone.
+- No question may be solvable by assuming standard pathology exam sequences
+  (e.g., diagnosis -> grading -> staging -> management).
+
+ANTI-TEXT-ONLY GUARDRAILS:
+Set Independence:
+- Each question must be answerable independently.
+- The answer to one question must NOT logically constrain or imply the answer to another.
+Anti-Heuristic:
+- Do NOT rely on classic exam heuristics
+  (e.g., "any invasion -> check muscle", "high-grade -> pleomorphism").
+- Do NOT include stereotypical distractors that are obviously incorrect
+  (e.g., "reactive atypia" as the only benign option).
+Lexical Neutrality:
+- Avoid keyword clusters that uniquely signal correctness.
+- All options must be similar in length, specificity, and diagnostic tier.
+
+OPTION CONSTRAINTS (STRICT):
+- All options must be medically and pathologically plausible.
+- All options must belong to the same general diagnostic family.
+- Each incorrect option must differ from the correct one by exactly ONE
+  visually verifiable discriminator.
+- At least one incorrect option must be MORE textbook-coherent
+  than the correct option, but not visually supported by the images.
+- Correctness must depend on confirming or excluding specific visual evidence
+  across magnifications, not on reading the question text alone.
+
+{POOL_INSTRUCTION}
+
+OUTPUT FORMAT (repeat for each question; no extra text):
+Q1|<question text>
+A|<option text>
+B|<option text>
+C|<option text>
+D|<option text>
+ANSWER|<A/B/C/D>
+RATIONALE|<short rationale text>
+
+INPUT:
+<<<PATH_DESCRIPTION>>>
+{path_description}
+<<<PATH_SUMMARY>>>
+{path_summary}

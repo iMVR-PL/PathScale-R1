@@ -1,0 +1,21 @@
+TYPE D: CAUSAL / EXPLANATORY LINKING
+
+TYPE D CONSTRAINTS:
+- The correct option MUST:
+  - Depend on a specific pairing of features across magnifications whose joint validity requires visual verification
+  - Become incorrect if either paired feature is altered or absent
+  - Rely on compatibility of coexistence, not explanation or progression
+- The correct option MUST NOT:
+  - Rely on hierarchical "zoom-in" logic (low -> mid -> high)
+  - Imply that one feature explains, produces, or necessitates another
+  - Form a macro-meso-micro narrative, even if biologically plausible
+  - Be the most constrained, most integrated, or most "textbook-coherent" option
+- All options MUST:
+  - Reference multiple features, not a single anchor
+  - Be equally plausible without images
+  - Differ only in which features are paired
+  - Avoid language implying causality, sequence, or dependency
+- At least one incorrect option MUST: Use a commonly expected cross-scale alignment that is not visually guaranteed
+
+FREE QUESTION CONSTRAINTS (Q3–Q4):
+- Must explicitly anchor the question to the provided images using neutral phrases such as "in this set of images", "based on the images shown", or "when examining the images provided"

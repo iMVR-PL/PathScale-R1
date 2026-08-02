@@ -1,0 +1,7 @@
+TYPE C: LOCALIZATION / COMPARTMENT ATTRIBUTION
+
+TYPE C CONSTRAINTS:
+- The question asks where a structure or cell population belongs anatomically.
+- Options must differ only by compartment or spatial relationship.
+- Correctness must depend on spatial placement, not morphology alone.
+- At least one incorrect option must be anatomically plausible but contradicted by the feature lists.

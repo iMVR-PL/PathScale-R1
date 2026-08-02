@@ -1,0 +1,7 @@
+TYPE B: CORROBORATION VS NON-CORROBORATION
+
+TYPE B CONSTRAINTS:
+- The question evaluates whether an implication raised at one scale is supported, contradicted, or unresolved at another.
+- The implication must be weak and non-diagnostic.
+- The correct answer must depend on absence or mismatch, not presence alone.
+- At least one incorrect option must assume confirmation where none is visually stated.

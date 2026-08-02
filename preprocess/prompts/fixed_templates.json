@@ -1,0 +1,22 @@
+{
+  "A": {
+    "Q1": "Which option best describes whether any visually matching structure appears across more than one magnification in this set?",
+    "Q2": "Which option most accurately characterizes cross-scale visual consistency in this image set?"
+  },
+  "B": {
+    "Q1": "In this set of images, which option best reflects the degree of agreement or disagreement between observations across magnifications?",
+    "Q2": "Which option best matches how observations at different magnifications relate to each other in this set of images?"
+  },
+  "C": {
+    "Q1": "Which option best describes the anatomical or spatial compartment to which the highlighted structures belong, based on the images?",
+    "Q2": "Which option best characterizes the compartmental context of the structures shown in this set of images?"
+  },
+  "D": {
+    "Q1": "In this set of images, which option remains valid when all listed observations are treated as independently sampled views, without assuming directional or causal dependence between them?",
+    "Q2": "In this set of images, which option does not introduce an implicit dependency between observations that are only required to coexist within the same tissue context?"
+  },
+  "E": {
+    "Q1": "Which option is most consistent with the combined visual evidence across the images shown?",
+    "Q2": "Based on the images provided, which option best matches the overall morphologic impression?"
+  }
+}

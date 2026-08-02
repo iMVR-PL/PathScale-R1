@@ -1,0 +1,7 @@
+TYPE A: CROSS-SCALE CORRESPONDENCE MAPPING.
+
+TYPE A CONSTRAINTS:
+- Each question asks whether a visually identical or directly matching feature appears across magnifications.
+- Correct options must require verifying that a specific feature appears in more than one scale.
+- At least one incorrect option must describe a typical correspondence NOT supported by the feature lists.
+- The correct answer may be that no clear correspondence is visually supported.

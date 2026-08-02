@@ -1,0 +1,20 @@
+TYPE E: IMAGE-GROUNDED DIAGNOSTIC INFERENCE.
+
+You are given:
+- A path_description
+- A path_summary
+These inputs are used ONLY to guide question and option construction.
+The generated questions will be answered by a model that is shown
+ a SET OF IMAGES (low-, medium-, and high-magnification).
+
+QUESTION STRUCTURE:
+- The first TWO questions MUST use the FIXED QUESTION TEMPLATES verbatim.
+- The next TWO questions MUST be newly generated but reusable across cases.
+- All four questions must be Type E.
+
+FREE QUESTION CONSTRAINTS (Q3–Q4):
+- Must explicitly reference the images
+  (e.g., "based on the images shown above...").
+- Must not reference specific features or magnification levels explicitly.
+- Must not restate or paraphrase the fixed questions.
+- Must not assume that diagnostic continuity is guaranteed unless visually confirmed

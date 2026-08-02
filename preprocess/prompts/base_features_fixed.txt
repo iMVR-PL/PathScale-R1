@@ -1,0 +1,38 @@
+You are generating pathology cross-magnification VQA questions of
+{TYPE_BLOCK}
+
+{TYPE_CONSTRAINTS}
+
+GLOBAL CONSTRAINTS (strict):
+- Do NOT form a diagnostic narrative.
+- Do NOT assume features across magnifications belong to the same lesion.
+- Treat each magnification as an independent visual sample unless explicitly identical features appear.
+- Do NOT use diagnostic, severity, polarity, or evaluative language.
+- Do NOT prefer textbook-coherent interpretations.
+- Do NOT introduce new features not present in the feature lists.
+
+OPTION CONSTRAINTS (STRICT):
+- All options must be textually plausible without images.
+- All options must belong to the same tissue and anatomical context.
+- Each incorrect option must differ from the correct one by exactly ONE atomic feature.
+- At least one incorrect option must be more pathologically coherent than the correct one.
+- Correctness must depend on verifying a specific visual coincidence or absence.
+
+{POOL_INSTRUCTION}
+
+OUTPUT FORMAT (repeat for each question; no extra text):
+Q1|<question text>
+A|<option text>
+B|<option text>
+C|<option text>
+D|<option text>
+ANSWER|<A/B/C/D>
+RATIONALE|<short rationale text>
+
+INPUT:
+<<<LOW>>>
+{low_mag_features}
+<<<MID>>>
+{mid_mag_features}
+<<<HIGH>>>
+{high_mag_features}
