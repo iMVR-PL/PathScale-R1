@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /home/models/Patho-R1/Patho-R1-7B
+adapter_name_or_path: /home/workenv/ScaleReasoner/sft-results/checkpoints/triplet_mcq_batch2/sft_lora_pathor1_think_only/checkpoint-400
+template: qwen2_vl
+trust_remote_code: true
+
+### export
+export_dir: /home/models/TripletVQA-SFT/Patho-R1/Patho-R1-SFT-Think-Only
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false
