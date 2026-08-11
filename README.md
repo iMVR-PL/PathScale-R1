@@ -113,12 +113,7 @@ pip install -e LLaMA-Factory/
 
 > CUDA / PyTorch version requirements should be finalized against the exact training environment used for release.
 
-
-- Model download link: `[TODO]`
-- Recommended inference backend: `[TODO]`
-- System prompt / output format: `[TODO]`
-- Evaluation script: `[TODO]`
-
+More details on code implementation are coming soon!
 ## 🙏 Acknowledgements
 
 This work was supported by the Ministry of Education, Singapore, under the Tier 1 grant (24-1250-P0001) and Tier 2 grant (T2EP20224-0028), and by PuzzleLogic Pte Ltd, Singapore.
