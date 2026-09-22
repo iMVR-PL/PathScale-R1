@@ -3,6 +3,9 @@
 <p align="center">Chi Phan*, Tianyi Zhang*, Yufeng Wu, Qiaochu Xue, Jiajie Zhang, Linghan Cai, Zeyu Liu, Sudong Wang, Yueming Jin, Dan Hu</p>
 
 <p align="center">
+  <a href="https://chiphan1110.github.io/PathScale-R1-Project-Page/">
+    <img src="https://img.shields.io/badge/Project-Page-8146b0" alt="Project Page" />
+  </a>
   <a href="https://arxiv.org/abs/2607.23794">
     <img src="https://img.shields.io/badge/Paper-arXiv-red" alt="Paper arXiv" />
   </a>
@@ -144,4 +147,3 @@ If you find our work helpful, please consider citing our paper and the framework
   year={2026}
 }
 ```
-
